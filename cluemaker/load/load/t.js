@@ -1,0 +1,1 @@
+var hints=['adbhegfhbedf,','edhfyyhbdrfhbdfc','adbhegfhbedf,','edhfyyhbdrfhbdfc','adbhegfhbedf,','edhfyyhbdrfhbdfc','adbhegfhbedf,','edhfyyhbdrfhbdfc','adbhegfhbedf,','edhfyyhbdrfhbdfc','adbhegfhbedf,','edhfyyhbdrfhbdfc']
