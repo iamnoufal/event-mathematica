@@ -1,0 +1,1 @@
+var clues = document.getElementById("clueContainer");
