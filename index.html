@@ -13,36 +13,28 @@
         <script src="b.js"></script>
         <script src="hi/f.js"></script>
         <script src="cluemaker/load/content/g.js"></script>
+        <link rel='stylesheet' href="style.css" />
+    </head>
+    <body onload="loadClues()">
 
-        </head>
-    <body onload="loadClues()" style='text-align:center'>
-
-        <!--header-->
-        <div class='header'><h1>Event Mathematica</h1></div>
-
-        <!--main_clue-->
+        <!--main clue-->
         <div id='main-clue' class='clue'>
             <h2>Find the mystery behind the storyline</h3>
             <div id='hidden'></div>
-            <div id='pwd' class='type-ans'>
+            <div id='pwd-container'>
                 <h3>Unlock the main story with a password</h3>
-                <input class='type' type="text" id='mainpwd' />
-                <input class="submit" type='submit' onclick='checkPwd()' value='Unlock Story' />
+                <div id='pwd' class='type-ans'>
+                    <input class='type' type="text" id='mainpwd' />
+                    <input class="submit" type='submit' onclick='checkPwd()' value='Unlock Story' />
+                </div>
             </div>
         </div>
 
         <!--clues-->
         <div id="clueContainer"></div>
 
-        <div class='clue'>
-            <h3 id='clue-heading'></h3>
-            <img src='' id='clue-img' />
-            <div class="type-ans">
-                <input class='type' type="text" id="and" />
-                <input class="submit" type="submit" value="Check!!!" onclick='' />
-                <p id='hint'></p>
-            </div>
-        </div>
+        <!--cracked-->
+        <div id="cracked"></div>
 
         <script src='clue-container.js'></script>
     </body>

@@ -10,7 +10,8 @@ function loadClues() {
         container+="<img src='' id='img"+i+"' />";
         container+="<div class='type-ans'>"
         container+="<input type='text' class='type' id='ans"+i+"' />";
-        container+="<input type='submit' class='submit' onclick='checkAns("+i+")' /></div>";
+        container+="<input type='submit' class='submit' onclick='checkAns("+i+")' value='Check!!' /></div>";
+        container+="<p id='err"+i+"'></p>";
         container+="<p id='hint"+i+"'></p>";
         container+="</div>";
     }

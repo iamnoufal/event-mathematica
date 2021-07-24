@@ -5,7 +5,7 @@ function checkAns(x) {
         document.getElementById('clue'+x).innerHTML='';
         st(ans,x);
     } else {
-        alert("The answer "+ans+" typed for clue "+x+" is incorrect");
-        document.getElementById('hint'+x).innerHTML=hints[parseInt(x)];
+        document.getElementById('err'+x).innerHTML='The Answer <b>'+ans+'</b> typed for <b>Clue '+x+'</b> is incorrect'
+        document.getElementById('hint'+x).innerHTML='<b>Hint:</b> '+hints[parseInt(x)];
     }
 }
